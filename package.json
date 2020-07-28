@@ -11,7 +11,7 @@
     "test": "eslint src --ext .js,.jsx",
     "build": "yarn clean; NODE_ENV=production webpack --colors",
     "clean": "rimraf dist",
-    "deploy": "yarn build; surge -p dist -d CHANGETHIS.surge.sh; yarn clean"
+    "deploy": "yarn build; surge -p dist -d jeffliu-cs52-starter-redux.surge.sh; yarn clean"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
